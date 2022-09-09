@@ -1,0 +1,65 @@
+@import 'http://fonts.cdnfonts.com/css/sf-pro-display';
+@import 'custom.css';
+@import 'custom-desktop.css';
+@import 'custom-mobile.css';
+* {
+  box-sizing: border-box;
+  transition: 0.3s ease-out;
+}
+
+html {
+  height: 100%;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+main {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+  margin-block: 0;
+  margin-inline: 0;
+  font-weight: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#app_root {
+  height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

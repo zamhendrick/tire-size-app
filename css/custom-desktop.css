@@ -1,0 +1,90 @@
+@media screen and (min-width: 721px) {
+  .desktop\:block {
+    display: block;
+  }
+  .desktop\:flex {
+    display: flex;
+  }
+  .desktop\:flex.align-center {
+    align-items: center;
+  }
+  .desktop\:flex-column {
+    flex-direction: column;
+  }
+  .desktop\:flex.justify-center {
+    justify-content: center;
+  }
+  .desktop\:grid {
+    display: grid;
+  }
+  .desktop\:grid-col-2 {
+    grid-template-columns: 50% 50%;
+    gap: 1rem 2rem;
+    padding-right: 1rem;
+  }
+  .desktop\:hidden {
+    display: none;
+  }
+  .desktop\:inline-block {
+    display: inline-block;
+  }
+  .desktop\:bg-white {
+    background-color: white;
+  }
+  .desktop\:bs-1 {
+    box-shadow: 0 0 1rem 0.25rem rgba(0, 0, 0, 0.0588235294);
+  }
+  .desktop\:px-0\.5 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .desktop\:px-0\.75 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .desktop\:px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .desktop\:py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .desktop\:py-1\.5 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .desktop\:py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .desktop\:pt-2 {
+    padding-top: 2rem;
+  }
+  .desktop\:w-full {
+    width: 100%;
+  }
+  .desktop\:w-content {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .desktop\:w-1 {
+    width: 1rem;
+  }
+  .desktop\:w-2 {
+    width: 2rem;
+  }
+  .desktop\:w-3 {
+    width: 3rem;
+  }
+  .desktop\:w-4 {
+    width: 4rem;
+  }
+  .desktop\:w-5 {
+    width: 5rem;
+  }
+  .desktop\:w-8 {
+    width: 8em;
+  }
+}

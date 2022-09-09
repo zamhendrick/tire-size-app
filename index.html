@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Tire Size App</title>
+        
+        <meta name="author" content="Zam Hendrick G. Infantado">
+        <meta name="description" content="Free Tire Size Calculator">
+        <meta name="keywords" content="Tire, Size, Calculator, Comparison">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div id="app_root">
+            <div class="flex flex-column h-full">
+                <header></header>
+                <main>
+                    <div class="mobile:block grid desktop:grid-col-2 w-full mx-auto justify-center" style="max-width: 960px;">
+                        <section  id="tire_calculator" class="py-0.5">
+                            <div class="flex w-full h-full mobile:py-1.5 p-1 br-0.5 mx-auto bs-1 bg-white align-center">
+                                <form class="w-full">
+                                    <div class="flex justify-center py-0.25">
+                                        <span class="block w-3 text-bold">Tire 1</span>
+                                        <input type="number" value="205" class="tire-width-input w-2.5"/>
+                                        <span class="block w-1.5 text-center text-bold">/</span>
+                                        <input type="number" value="70" class="sidewall-percentage-input w-2.5"/>
+                                        <span class="block w-1.5 text-center text-bold">R</span>
+                                        <input type="number" value="15" class="rim-diameter-input w-2.5"/>
+                                    </div>
+                                    <div class="flex justify-center py-0.25">
+                                        <span class="block w-3 text-bold">Tire 2</span>
+                                        <input type="number" value="275" class="tire-width-input w-2.5"/>
+                                        <span class="block w-1.5 text-center text-bold">/</span>
+                                        <input type="number" value="55" class="sidewall-percentage-input w-2.5"/>
+                                        <span class="block w-1.5 text-center text-bold">R</span>
+                                        <input type="number" value="20" class="rim-diameter-input w-2.5"/>
+                                    </div>
+                                    <div class="flex py-0.25 mt-1">
+                                        <button id="tire_calculator_btn" class="w-full mobile:py-1 py-0.5 br-0.5 text-bold" style="border:none; background-color:#f0f0f0">Calculate</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+
+                        <section id="tire_result" class="py-0.5"></section>
+                        <section id="tire_graph_side" class="hidden py-0.5"></section>
+                        <section id="tire_graph_front" class="hidden py-0.5"></section>
+                    </div>
+                </main>
+                <footer class="mt-auto"></footer>
+            </div>
+            
+        </div>
+        <script src="header.js"></script>
+        <script src="index.js"></script>
+        <script src="footer.js"></script>
+    </body>
+</html>
